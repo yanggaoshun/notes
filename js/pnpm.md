@@ -39,7 +39,7 @@ pnpm 支持 workspaces，可以将多个项目组成一个仓库，使用 pnpm �
 
 ```yaml
 packages:
-  'packages/*'
+  - 'packages/*'
 ```
 
 然后在 `packages` 目录下创建多个项目，每个项目都有自己的 `package.json` 文件。
